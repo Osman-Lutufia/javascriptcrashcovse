@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Demo</title>
+    
+  </head>
+  <body>
     <p id="demo">hello world</p>
     <button onclick="myFunc()">change value</button>
 
-<p id="check" style="color: blue;" >check my new color</p>
-<button onclick="myColor()" >my color</button>
+    <p id="check" style="color: blue">check my new color</p>
+    <button onclick="myColor()">my color</button>
 
-
+    <p id="demo2"></p>
     <script>
-function myFunc() {
-    document.getElementById("demo").innerHTML="hello everyone"; 
-}
-function myColor(){
-    document.getElementById("check").style.color="green";
-}
-// Operators
-const num =5;
-const Num=6;
-const sum =num + Num;
-document.write(sum)
+      function myFunc() {
+        document.getElementById("demo").innerHTML = "hello everyone";
+      }
+      function myColor() {
+        document.getElementById("check").style.color = "green";
+      }
+      // Operators
+      const num = 5;
+      const Num = 6;
+      const sum = num + Num;
+      document.write(sum);
 
 
-</script>
-</body>
+
+    </script>
+    <script src="./main.js"></script>
+  </body>
 </html>
